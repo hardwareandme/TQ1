@@ -98,3 +98,4 @@ except:
     print "user is not able to see 'anything' in bold"
     raise Exception(browser.quit())
 browser.quit()
+#Close browser session
