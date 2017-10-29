@@ -22,4 +22,14 @@ How to run main.sh ?
 In order to run main.sh you have to give command in terminal as below :
     sh main.sh > logs.txt
 On pressing Enter, the selenium test cases will start executing and all the logs will get captured in logs.txt that can be analyzed later for failures (if any)
+
+-------------------------------------
+Test cases are ass per given requirements :
+
+HTTP.py : It basically checks if Site is operational or not.
+
+PublishTests.py : It is used to login user to the admin panel, create a post and verify if posts are available in Index page or not. Also, it verifies if user is able to see "anything" in bold 
+
+Commenttests.py : It covers test cases for adding , viewing and replying to comments made by users of the blog.
+
   
