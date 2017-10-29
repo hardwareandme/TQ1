@@ -24,7 +24,7 @@ In order to run main.sh you have to give command in terminal as below :
 On pressing Enter, the selenium test cases will start executing and all the logs will get captured in logs.txt that can be analyzed later for failures (if any)
 
 -------------------------------------
-Test cases are ass per given requirements :
+Test cases are as per given requirements :
 
 HTTP.py : It basically checks if Site is operational or not.
 
