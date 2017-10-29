@@ -34,7 +34,7 @@ try:
     comment_section = browser.find_element_by_xpath(".//*[@id='comment']")
     comment_section.clear()
     #add comment
-    comment_section.send_keys("Comment by user 1bcd")
+    comment_section.send_keys("Comment by user 1")
     #find email field
     email = browser.find_element_by_xpath(".//*[@id='email']")
     #add email
@@ -63,7 +63,7 @@ try:
     comment = browser.find_element_by_id("comment")
     comment.clear()
     #add comment
-    comment.send_keys("Comment by user2namenb")
+    comment.send_keys("Comment by user2")
     user2name = browser.find_element_by_name("author")
     #clear username field
     user2name.clear()
