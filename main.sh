@@ -8,4 +8,4 @@ echo "waiting .............."
 sleep 5
 echo "Loading testcase 3 to check if user is able to comment and reply on posts"
 python Commenttests.py
-sleep 5
+
